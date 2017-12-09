@@ -13,7 +13,7 @@ public class ValidacaoVerdadeiroFalso {
 	}
 	
 	@Test
-	public void validacaoVerdadeiro_Erro() {
+	public void validacaoVerdadeiro_Falha() {
 		boolean campoEstaPresente = true;
 		assertFalse("Campo não está presente", campoEstaPresente);
 	}
