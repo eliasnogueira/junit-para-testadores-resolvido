@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class ValidacaoVerdadeiro {
+public class ValidacaoVerdadeiroFalso {
 
 	@Test
 	public void validacaoVerdadeiro_Sucesso() {
