@@ -1,4 +1,4 @@
-package com.eliasnogueira.votacao;
+package votacao;
 
 import java.util.Calendar;
 
