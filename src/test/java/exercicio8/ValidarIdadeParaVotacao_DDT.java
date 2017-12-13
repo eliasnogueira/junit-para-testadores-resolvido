@@ -29,7 +29,7 @@ public class ValidarIdadeParaVotacao_DDT {
 	public void validaObrigatoriedadeVoto() {
 		assertEquals(resultado, Votacao.podeVotar(nome, anoDeNascimento));
 	}
-	
+	 
 	@Parameters(name = "{0} | {1} | {2}")
 	public static Collection<Object[]> data() {
 		return Arrays.asList(new Object[][] {
