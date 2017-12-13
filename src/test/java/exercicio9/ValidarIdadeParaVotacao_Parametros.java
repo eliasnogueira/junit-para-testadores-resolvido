@@ -28,13 +28,13 @@ public class ValidarIdadeParaVotacao_Parametros {
 	@Parameters(name = "{0} | {1} | {2}")
 	public static Collection<Object[]> data() {
 		return Arrays.asList(new Object[][] {
-			{"Maria"  , 2002, "Maria, você não pode votar"},
-			{"Rodrigo", 2001, "Rodrigo, seu voto é facultativo"},
-			{"João"   , 2000, "João, seu voto é facultativo"},
-			{"Carla"  , 1999, "Carla, seu voto é obrigatório"},
-			{"José"   , 1992, "José, seu voto é obrigatório"},
-			{"Ana"    , 1947, "Ana, seu voto é obrigatório"},
-			{"Pedro"  , 1946, "Pedro, seu voto é facultativo"}
+			{"Maria"  , 2002, "Maria você não pode votar"},
+			{"Rodrigo", 2001, "Rodrigo seu voto é facultativo"},
+			{"João"   , 2000, "João seu voto é facultativo"},
+			{"Carla"  , 1999, "Carla seu voto é obrigatório"},
+			{"José"   , 1992, "José seu voto é obrigatório"},
+			{"Ana"    , 1947, "Ana seu voto é obrigatório"},
+			{"Pedro"  , 1946, "Pedro seu voto é facultativo"}
 		});
 	}
 }

@@ -13,13 +13,13 @@ public class Votacao {
 		int idade = retornaAnoAtual() - anoDeNascimento;
 		
 		if (idade < 16) {
-			retorno = nome + ", você não pode votar";
+			retorno = nome + " você não pode votar";
 			
 		} else if (idade >= 16 && idade <= 17 || idade > 70) {
-			retorno = nome + ", seu voto é facultativo";
+			retorno = nome + " seu voto é facultativo";
 			
 		} else if (idade >= 18 && idade <= 70) {
-			retorno = nome + ", seu voto é obrigatório";
+			retorno = nome + " seu voto é obrigatório";
 		}
 		
 		return retorno;
