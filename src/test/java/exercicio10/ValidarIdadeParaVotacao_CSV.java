@@ -18,4 +18,5 @@ public class ValidarIdadeParaVotacao_CSV {
 	public void validaObrigatoriedadeVoto(String nome, int anoDeNascimento, String resultado) {
 		assertEquals(resultado, Votacao.podeVotar(nome, anoDeNascimento));
 	}
+	
 }

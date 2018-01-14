@@ -25,6 +25,19 @@
 		</dependency>
 	</dependencies>
 
+	<!--  Par execucao dos testes via POM ou linha de comando pelo Manven -->
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.20.1</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
 	<issueManagement>
 		<system>git</system>
 		<url>https://github.com/eliasnogueira/junit-para-testadores/issues</url>

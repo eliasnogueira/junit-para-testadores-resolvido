@@ -23,6 +23,7 @@ public class ValidarIdadeParaVotacao_Parametros {
 	@Test
 	public void validaObrigatoriedadeVoto() {
 		assertEquals(resultado, Votacao.podeVotar(nome, anoDeNascimento));
+		
 	}
 	
 	@Parameters(name = "{0} | {1} | {2}")
